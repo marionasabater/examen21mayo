@@ -1,0 +1,32 @@
+/* @VARIABLES */
+/* ********** */
+
+// TIPOGRAFIA
+$fontSize: 16px;
+$fontFamily: "roboto", sans-serif;
+$fontFamily-bold: "robotoBold", sans-serif;
+
+// COLORES
+$colores: (
+    negro:#000000,
+    gris:#F8F8F8,
+    azul:#2385E0
+);
+
+// TAMAÑOS
+$dispositivos: (
+    smartphone: 360px,
+    ipad: 768px,
+    desktop: 1366px
+);
+
+$breakpoints: (
+    smartphone: 320px,
+    ipad: 768px,
+    desktop: 1100px
+);
+
+$margenes: (
+    internos: 20px,
+    navHorizontal: 10px
+);

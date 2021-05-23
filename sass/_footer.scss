@@ -1,0 +1,41 @@
+
+/* header y main vacios para crear espacio para que el footer esté abajo */
+
+.contenido {display: flex;
+            flex-direction: column; }
+
+.header2 {height: 20vw;
+        background-color: white;}
+
+.main2 {height: 20vw;}
+
+
+
+/* footer */
+
+footer {background-color: map-get($colores, azul);
+
+    h5, li {color: white;}
+    
+    li {padding-bottom: 5px;}
+    }
+    
+    ul {padding: 0;} // para eliminar el espacio del ul
+    
+    
+    /* menu del footer */
+    
+    .arriba {display: flex;
+        flex-direction: row;
+        padding-left: 20px;}
+    
+    .redes {flex-grow: 1;}
+    
+    .acerca {flex-grow: 4;}
+    
+    .terminos {flex-grow: 1;}
+    
+    /* copywright */
+    
+    .abajo {display:flex;
+            justify-content: center;}
